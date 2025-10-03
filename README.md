@@ -56,7 +56,7 @@ To run the Moon Thief simulator locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [[YOUR_REPO_LINK]](https://github.com/FaazX/Moon-Theif)
+    git clone (https://github.com/FaazX/Moon-Theif)
     ```
 2.  **Install dependencies (e.g., Three.js, React-Three-Fiber, etc.):**
     ```bash
