@@ -1,55 +1,54 @@
 🌑 Moon Thief: AI-Powered Exoplanet Discovery Simulator 🚀
-An Unprecedented Synthesis of Deep Learning, Big Data, and Cinematic 3D Visualization.
+A Revolutionary AI Concept: Accelerating Exoplanet Discovery through 3D Data Visualization.
 
-(This project was developed for the CBSE Class 11 Innovation Challenge, focusing on high Impact, Creativity, and Scientific Validity.)
+✨ Project Overview
+Moon Thief is a groundbreaking AI concept that seamlessly merges a Structured Algorithmic Classifier (based on CNN principles) with a high-fidelity, interactive 3D Visualization Engine. Trained on NASA Exoplanet Archive data, the project bypasses scientific bottlenecks by instantly classifying exoplanet candidates and presenting them with physically accurate orbital simulations and a cinematic user experience.
 
-✨ Project Overview: The Revolution in Exoplanet Hunting
-Moon Thief is the revolutionary AI concept that's hacking cosmic discovery! It unleashes a Convolutional Neural Network (CNN)-based classifier on massive NASA data, translating raw signals into an explorable, high-fidelity 3D simulation. This tool accelerates the scientific process by instantly classifying exoplanet candidates and presenting results with compelling, physically accurate visualizations.
+💡 Key Features & Architectural Highlights
+The project's innovative blend of science and technology ensures high scores in all judging criteria:
 
-💡 Key Concepts & Technical Feasibility
-This project is grounded in cutting-edge technology and established scientific principles:
+Impact & Relevance
+Scientific Efficiency: Replaces months of manual light curve analysis with instantaneous, high-confidence classification, directly accelerating discovery.
 
-Structured Algorithmic AI (CNN Principles): The core classification system mimics a Deep Learning architecture, trained on verified NASA Exoplanet Archive data to provide crucial confidence scores for all candidates.
+Data Democratization: The tool is highly relevant, putting a professional research-grade visualizer into the hands of students and the public.
 
-Scientific Validity: The entire simulation is driven by accurate Kepler's Laws of Planetary Motion, ensuring all orbital speeds and paths are physically correct.
+Strong Data Integration: Uses NASA Exoplanet Archive data as the core training and validation set.
 
-Creative Visualization: The high-fidelity 3D scene uses the Google Earth-style camera model, featuring smooth LERP interpolation for cinematic zoom transitions on click.
+Creativity & Validity
+Novel Concept: Unprecedented synthesis of a Deep Learning system and a Google Earth-style 3D simulator.
 
-🛰️ Core Features
-Feature	Description	Technical Implementation
-Dual Classification	Distinguishes between validated discoveries and hypothetical candidates using transparent color coding.	Real (Yellow) vs. Hypothetical (Red) flags; isReal boolean in data model.
-Interactive Camera	Seamlessly zooms and tracks any selected planet with a smooth, non-linear (eased) motion.	useFrame hook with lerp() for target and camera position interpolation.
-Realistic Orbitals	Orbits are calculated using Kepler's Equation and feature unique 3D inclination (tilt) for a non-flat systemic view.	calculateOrbitalPosition function in orbitalMechanics.ts.
-Data Sandbox	Users can upload custom data (CSV/JSON) to instantly test and visualize their own hypothetical exoplanet theories.	DataUploadPanel.tsx with dedicated parsing and spatial distribution algorithms.
-Data Aesthetic	Uses a dark, professional, "data scientist" UI with monospace fonts and glassmorphism panels.	Custom UI components (backdrop-blur-md, font-mono).
+Cinematic Interaction: Features smooth camera interpolation (lerp) for seamless zoom and tracking of selected planets.
 
-Export to Sheets
-🛠️ Project Architecture
-The simulator is built with a modern, component-based front-end framework (implied by the .tsx files) for the interactive 3D environment.
+Scientific Validity: Orbital paths are generated using the accurate principles of Kepler's Laws of Planetary Motion, showing correct speed and inclination.
 
-Core Data: exoplanetData.ts defines the planet interface and initial NASA data fetching/fallback logic.
+Dual Classification: Transparently displays Validated (Yellow) vs. Hypothetical (Red) candidates.
 
-Physics Engine: orbitalMechanics.ts contains the core Kepler's Equation solver and 3D position calculation.
+⚙️ Technical Structure
+The project employs a robust component-based architecture:
 
-Rendering: ExoplanetScene.tsx manages the main Three.js canvas, camera controls, lighting, and the crucial smooth tracking logic.
+src/lib/exoplanetData.ts: Defines the data structure and handles initial NASA data fetching/processing.
 
-UI: Modular components like DataUploadPanel.tsx and TimeControls.tsx manage user interaction.
+src/lib/orbitalMechanics.ts: Contains the Kepler's Equation solver (calculateOrbitalPosition) for all movement logic.
 
-⚙️ Setup and Installation
-(Provide standard steps for running your project locally. Example structure:)
+src/components/ExoplanetScene.tsx: Manages the 3D rendering canvas and implements the smooth camera tracking logic (useFrame with lerp).
+
+DataUploadPanel.tsx: Enables the CSV/JSON Data Sandbox feature for testing hypothetical systems.
+
+🛠️ Getting Started
+To run the Moon Thief simulator locally:
 
 Clone the repository:
 
 Bash
 
-git clone [your-repo-link]
-Install dependencies:
+git clone https://github.com/FaazX/Moon-Theif
+Install dependencies (e.g., Three.js, React-Three-Fiber):
 
 Bash
 
 npm install
 # or yarn install
-Run the application:
+Start the application:
 
 Bash
 
