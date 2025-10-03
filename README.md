@@ -1,8 +1,11 @@
------
-
-# 🌑 Moon Thief
+# 🌑 Moon Thief: AI-Powered Exoplanet Discovery Simulator 🚀
 
 **A Revolutionary AI Concept: Accelerating Exoplanet Discovery through 3D Data Visualization.**
+
+## 🔗 Live Demo
+
+**Experience the future of space science right now\!**
+➡️ **Test the live application here:** [https://moontheif.vercel.app](https://moontheif.vercel.app) 🌟
 
 -----
 
@@ -16,7 +19,7 @@
 
 This project is built to score high on all criteria, proving exceptional value and rigor:
 
-| Criteria |Moon Theif's integration|
+| Criteria | Moon Theif's notes|
 | :--- | :--- |
 | **IMPACT** | Annihilates the **data bottleneck** in astrophysics, instantly accelerating discovery, and democratizing access to professional science tools. |
 | **CREATIVITY** | The **Novel Concept** of synthesizing a **Deep Learning** system with a **Google Earth-style 3D simulator** and **cinematic LERP zoom**. |
@@ -53,7 +56,7 @@ To run the Moon Thief simulator locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone (https://github.com/FaazX/Moon-Theif)
+    git clone [[YOUR_REPO_LINK]](https://github.com/FaazX/Moon-Theif)
     ```
 2.  **Install dependencies (e.g., Three.js, React-Three-Fiber, etc.):**
     ```bash
@@ -68,4 +71,4 @@ To run the Moon Thief simulator locally:
 
 -----
 
-## **© 2025 [Moon Theif] | Nasa Space Apps Challenge 2025**
+## **© 2025 [Moon Theif -Faaz] | Nasa Space Apps Challenge**
