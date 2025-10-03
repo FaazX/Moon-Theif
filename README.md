@@ -16,7 +16,7 @@
 
 This project is built to score high on all criteria, proving exceptional value and rigor:
 
-| Criteria | Why Moon Thief Achieves a Score of 5 |
+| Criteria |Moon Theif's integration|
 | :--- | :--- |
 | **IMPACT** | Annihilates the **data bottleneck** in astrophysics, instantly accelerating discovery, and democratizing access to professional science tools. |
 | **CREATIVITY** | The **Novel Concept** of synthesizing a **Deep Learning** system with a **Google Earth-style 3D simulator** and **cinematic LERP zoom**. |
