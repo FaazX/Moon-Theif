@@ -68,4 +68,4 @@ To run the Moon Thief simulator locally:
 
 -----
 
-## **© 2025 [Your Name/Team Name] | CBSE Class 11 Innovation Project**
+## **© 2025 [Moon Theif] | Nasa Space Apps Challenge 2025**
